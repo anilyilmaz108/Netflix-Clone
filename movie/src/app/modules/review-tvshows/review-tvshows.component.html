@@ -1,0 +1,51 @@
+<app-navbar></app-navbar>
+<div style="position: absolute; width: 100%;" class="bg-black">
+
+
+
+    <!--Jumbotron-->
+    <section [ngStyle]="{'background-image': 'url(' + backdrop + ')'}" class="mb-4 bg-center bg-cover bg-no-repeat bg-[url('https://image.tmdb.org/t/p/original/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg')] bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+                
+                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">{{getMovieDetailResult.name}}</h1>
+                <p class="mb-8 text-lg font-light text-gray-400 lg:text-xl sm:px-12 lg:px-36">{{getMovieDetailResult.first_air_date.split('-')[0]}} | {{getMovieDetailResult.number_of_seasons}} Sezon | {{getMovieDetailResult.number_of_episodes}} Bölüm | {{getMovieDetailResult.vote_average}} ⭑</p>
+
+                <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">{{getMovieDetailResult.overview}}</p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                  
+                    <a href="https://www.themoviedb.org/video/play?key={{getMovieVideoResult}}" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 rounded-lg bg-gray-100  focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        <svg class="w-6 h-6 mr-3 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 18">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1.984v14.032a1 1 0 0 0 1.506.845l12.006-7.016a.974.974 0 0 0 0-1.69L2.506 1.139A1 1 0 0 0 1 1.984Z"/>
+                          </svg>
+        
+                          {{'homeTitle1' | translate }}
+                        
+                    </a>
+                  
+                </div>
+        </div>
+    </section>
+    
+
+        <!--Similar Tv Shows-->
+<h2 class="text-2xl m-4 pt-4 pl-8 font-bold text-white">{{'similarTvShows' | translate }}</h2>
+<div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
+    <div class="flex flex-nowrap ml-4">
+    <div *ngFor="let item of actionMovieResult" class="da relative flex-col justify-start overflow-hidden m-4 bg-gray-900">
+        <div class="absolute inset-0 bg-center dark:bg-black"></div>
+        <div class="group relative m-0 flex rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+          <div class="z-10 w-64 h-64 max-w-xs overflow-hidden rounded-xl opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+            <a href="review-tv/{{item.id}}">
+                <img src="https://image.tmdb.org/t/p/original/{{ item.poster_path }}" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+            </a>
+          </div>
+ <!--         <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
+            <h1 class="font-serif text-2xl font-bold text-white shadow-xl"></h1>
+            <h1 class="text-sm font-light text-gray-200 shadow-xl">{{item.title}}</h1>
+          </div>-->
+        </div>
+      </div>
+</div>
+</div>
+
+</div>
