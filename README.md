@@ -18,6 +18,7 @@ The data coming from TMDB Api is displayed in the project with the help of Angul
 5. TMDB Api
 6. Ngx-Translate
 7. NgRx
+8. RxJs
 
 ##  Installing the Module
 
