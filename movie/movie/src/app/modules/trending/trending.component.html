@@ -1,0 +1,11 @@
+<div class="bg-black">
+
+    <app-navbar></app-navbar>
+        
+    <!--Jumbotron-->
+    <app-jumbotron-page [title]="title" [backdrop]="backdrop" [getMovieVideoResult]="getMovieVideoResult" [desc]="desc" [play]="'homeTitle1' | translate" [info]="'homeTitle2' | translate" path="/review" [movieId]="movieId"></app-jumbotron-page>
+
+    <!--Trending Movies-->
+    <app-movie-group [title]="'homeTitle3' | translate" [movieResults]="trendingMovieResult" [spinnerValue]="spinnerValueTrending" path="/review"></app-movie-group>
+
+    </div>

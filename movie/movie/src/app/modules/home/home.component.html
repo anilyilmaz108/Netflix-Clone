@@ -1,0 +1,33 @@
+<div class="bg-black">
+
+<app-navbar></app-navbar>
+    
+<!--Jumbotron-->
+<app-jumbotron-page [title]="title" [backdrop]="backdrop" [getMovieVideoResult]="getMovieVideoResult" [desc]="desc" [play]="'homeTitle1' | translate" [info]="'homeTitle2' | translate" path="/review" [movieId]="movieId"></app-jumbotron-page>
+
+<!--Trending Movies-->
+<app-movie-group [title]="'homeTitle3' | translate" [movieResults]="trendingMovieResult" [spinnerValue]="spinnerValueTrending" path="/review"></app-movie-group>
+
+<!--Action Movies-->
+<app-movie-group [title]="'homeTitle4' | translate" [movieResults]="actionMovieResult" [spinnerValue]="spinnerValueActions" path="/review"></app-movie-group>
+
+<!--Adventure Movies-->
+<app-movie-group [title]="'homeTitle5' | translate" [movieResults]="adventureMovieResult" [spinnerValue]="spinnerValueAdventure" path="/review"></app-movie-group>
+
+<!--Animation Movies-->
+<app-movie-group [title]="'homeTitle6' | translate" [movieResults]="animationMovieResult" [spinnerValue]="spinnerValueAnimation" path="/review"></app-movie-group>
+
+<!--Comedy Movies-->
+<app-movie-group [title]="'homeTitle7' | translate" [movieResults]="comedyMovieResult" [spinnerValue]="spinnerValueComedy" path="/review"></app-movie-group>
+
+<!--Documentary Movies-->
+<app-movie-group [title]="'homeTitle8' | translate" [movieResults]="documentaryMovieResult" [spinnerValue]="spinnerValueDocumentary" path="/review"></app-movie-group>
+
+<!--Science-Fiction Movies-->
+<app-movie-group [title]="'homeTitle9' | translate" [movieResults]="sciencefictionMovieResult" [spinnerValue]="spinnerValueScienceFiction" path="/review"></app-movie-group>
+
+<!--Thriller Movies-->
+<app-movie-group [title]="'homeTitle9' | translate" [movieResults]="thrillerMovieResult" [spinnerValue]="spinnerValueThriller" path="/review"></app-movie-group>
+
+</div>
+

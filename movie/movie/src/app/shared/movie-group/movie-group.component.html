@@ -1,0 +1,14 @@
+<h2 class="text-2xl m-4 pt-4 pl-8 font-bold text-white">{{title}}</h2>
+<div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
+    <div class="flex flex-nowrap ml-4">
+    <div *ngFor="let item of movieResults" class="da relative flex-col justify-start overflow-hidden m-4 bg-gray-900">
+        <div class="absolute inset-0 bg-center dark:bg-black"></div>
+        <div class="bg-black" *ngIf="spinnerValue === true"><mat-spinner color="warn"></mat-spinner></div>
+        <div *ngIf="spinnerValue === false" class="group relative m-0 flex rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+          <div class="z-10 w-64 h-64 max-w-xs overflow-hidden rounded-xl opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+            <img src="https://image.tmdb.org/t/p/original/{{ item.poster_path }}" [routerLink]="[path,item.id]" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+          </div>
+        </div>
+      </div>
+</div>
+</div>
