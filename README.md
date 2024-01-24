@@ -18,6 +18,7 @@ The data coming from TMDB Api is displayed in the project with the help of Angul
 5. TMDB Api
 6. Ngx-Translate
 7. NgRx
+8. RxJs
 
 ##  Installing the Module
 
@@ -86,7 +87,7 @@ https://developer.themoviedb.org/reference/intro/getting-started
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/3.png" height="250" width="400" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/4.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/movie/github_images/4.png" height="250" width="400" />
   &nbsp;&nbsp;&nbsp;
   <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/5.png" height="250" width="400" />
   &nbsp;&nbsp;&nbsp;
