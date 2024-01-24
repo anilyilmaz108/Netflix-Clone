@@ -21,7 +21,6 @@ export class SelectUserComponent implements OnInit{
   ngOnInit(): void {
     initFlowbite();
     this.getProfiles();
-    this.profileLists.next()
   }
 
   createProfileForm = this.fb.group({
@@ -40,6 +39,7 @@ export class SelectUserComponent implements OnInit{
    
     this.profileService.createAccount(this.createProfileForm.value).subscribe((res)=>{
       console.log(res);
+      this.profileLists.push(res);
     }) 
   }
 
