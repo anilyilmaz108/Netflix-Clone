@@ -60,7 +60,7 @@ import { JumbotronPageComponent } from './shared/jumbotron-page/jumbotron-page.c
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    StoreModule.forRoot({language : languageReducer}),
+    StoreModule.forRoot({movie: movieReducer}),
     BrowserAnimationsModule,
     ReactiveFormsModule,
     NgxSpinnerModule,

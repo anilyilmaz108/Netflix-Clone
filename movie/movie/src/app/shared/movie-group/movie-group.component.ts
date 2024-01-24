@@ -8,7 +8,7 @@ import { Movie } from 'src/app/models/movie';
 })
 export class MovieGroupComponent implements OnInit{
   @Input() title: string = "";
-  @Input() movieResults: any = [];
+  @Input() movieResults: any;
   @Input() spinnerValue: boolean = false;
   @Input() path: string = "";
 

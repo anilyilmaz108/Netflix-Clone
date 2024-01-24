@@ -1,7 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
 import { initFlowbite } from 'flowbite';
+import { Observable } from 'rxjs';
 import { Movie } from 'src/app/models/movie';
 import { MovieService } from 'src/app/services/movie.service';
+import { addMovie } from 'src/app/store/state/movies.state';
 
 @Component({
   selector: 'app-trending',
@@ -20,11 +23,16 @@ export class TrendingComponent implements OnInit{
   rnd: number = 0;
   spinnerValueTrending: boolean = false;
 
+  movie: Observable<any>;
+  movies: any;
 
   ngOnInit(): void {
     initFlowbite();
     this.tvShowsData();
-  
+    this.movie = this.store.select("movie");
+    this.store.select("movie").subscribe(movie => {
+      this.movies = movie;
+    });
   }
 
   constructor(private movieService: MovieService){}
@@ -54,6 +62,11 @@ export class TrendingComponent implements OnInit{
        }else{
         this.spinnerValueTrending =false;
        }
+        //const m: Movie = new Movie();
+        this.trendingMovieResult.map((movie) => {
+        this.store.dispatch(addMovie(movie));
+        });
+
         this.rnd = Math.floor(Math.random() * (this.trendingMovieResult.length));
         this.title = this.trendingMovieResult[this.rnd].title;
         this.desc = this.trendingMovieResult[this.rnd].overview;
