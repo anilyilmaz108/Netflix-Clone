@@ -20,4 +20,9 @@ export class MylistService extends BaseService {
    {
      return this.getReq('/favourites?userId='+userId)
    }
+
+   public deleteList(id:number)
+   {
+    return this.httpClient.delete(`http://localhost:3000/favourites/${id}?id=int`);
+   }
 }

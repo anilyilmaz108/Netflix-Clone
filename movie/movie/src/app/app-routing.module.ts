@@ -28,7 +28,7 @@ const routes: Routes = [
   {path: 'tvshows', component: TvshowsComponent},
   {path: 'trending', component: TrendingComponent},
   {path:'review-tv/:id',component:ReviewTvshowsComponent},
-  //{path: 'mylist', component: MyListComponent},
+  {path: 'mylist', component: MyListComponent},
   {path: 'upcoming', component: UpcomingComponent},
   {path: '**', component: NotFoundComponent}
 

@@ -6,7 +6,18 @@
         <div class="bg-black" *ngIf="spinnerValue === true"><mat-spinner color="warn"></mat-spinner></div>
         <div *ngIf="spinnerValue === false" class="group relative m-0 flex rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
           <div class="z-10 w-64 h-64 max-w-xs overflow-hidden rounded-xl opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-            <img src="https://image.tmdb.org/t/p/original/{{ item.poster_path }}" [routerLink]="[path,item.id]" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+            <!--add icon-->
+            <div class="opacity-0 invisible group-hover:opacity-100 group-hover:visible absolute mt-48 ml-28 w-4 bg-transparent text-gray-800 rounded-lg shadow-lg py-2 z-10">
+              <button (click)="addFavourites(item)" type="button" class="text-white bg-gray-400 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg class="w-6 h-6 text-white dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 7.8v8.4M7.8 12h8.4m4.8 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                </svg>
+                <span class="sr-only">Icon description</span>
+                </button>
+            </div>
+            
+              <img src="https://image.tmdb.org/t/p/original/{{ item.poster_path }}" [routerLink]="[path,item.id]" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+          
           </div>
         </div>
       </div>

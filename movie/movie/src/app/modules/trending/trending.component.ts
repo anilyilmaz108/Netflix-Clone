@@ -25,17 +25,17 @@ export class TrendingComponent implements OnInit{
 
   movie: Observable<any>;
   movies: any;
-
+  
   ngOnInit(): void {
     initFlowbite();
     this.tvShowsData();
     this.movie = this.store.select("movie");
-    this.store.select("movie").subscribe(movie => {
-      this.movies = movie;
+    this.store.select("movie").subscribe(lesson => {
+      this.movies = lesson;
     });
   }
 
-  constructor(private movieService: MovieService){}
+  constructor(private movieService: MovieService, private store: Store<any>){}
 
     //Tv Trailer
     getVideo(id:any)
@@ -62,11 +62,12 @@ export class TrendingComponent implements OnInit{
        }else{
         this.spinnerValueTrending =false;
        }
-        //const m: Movie = new Movie();
-        this.trendingMovieResult.map((movie) => {
+       //const m: Movie = new Movie();
+       this.trendingMovieResult.map((movie) => {
         this.store.dispatch(addMovie(movie));
-        });
-
+       });
+       
+       
         this.rnd = Math.floor(Math.random() * (this.trendingMovieResult.length));
         this.title = this.trendingMovieResult[this.rnd].title;
         this.desc = this.trendingMovieResult[this.rnd].overview;

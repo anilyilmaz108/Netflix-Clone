@@ -33,6 +33,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { MovieGroupComponent } from './shared/movie-group/movie-group.component';
 import { JumbotronPageComponent } from './shared/jumbotron-page/jumbotron-page.component';
+import { movieReducer } from './store/reducer/movies.reducer';
 
 
 @NgModule({
