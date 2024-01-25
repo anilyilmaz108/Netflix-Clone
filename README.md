@@ -81,17 +81,17 @@ https://developer.themoviedb.org/reference/intro/getting-started
 ### Get Started
 
 <p float="left">
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/1.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/1.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/2.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/2.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/3.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/3.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/movie/github_images/4.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/movie/github_images/4.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/5.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/5.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/6.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/6.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
 </p>
 
@@ -100,9 +100,9 @@ https://developer.themoviedb.org/reference/intro/getting-started
 ### Login-Register
 
 <p float="left">
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/7.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/7.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/8.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/8.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
 </p>
 
@@ -111,32 +111,41 @@ https://developer.themoviedb.org/reference/intro/getting-started
 ### Profile
 
 <p float="left">
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/9.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/9.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/10.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/10.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
 </p>
 
 ---
 
-### Home - Tv Shows - Trending - Upcoming
+### Home - Tv Shows - Trending - Upcoming - My List
 
 <p float="left">
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/11.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/11.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/12.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/12.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/13.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/13.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/14.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/14.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/15.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/15.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/16.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/16.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/17.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/18.png" height="200" width="00" />
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/19.png" height="250" width="400" />
+</p>
+
+---
+
+### Review Movies - Tv Shows
+
+<p float="left">
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/21.png" height="200" width="300" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/19.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
 </p>
 
@@ -145,7 +154,7 @@ https://developer.themoviedb.org/reference/intro/getting-started
 ### Search
 
 <p float="left">
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/18.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/17.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
 </p>
 
@@ -154,7 +163,7 @@ https://developer.themoviedb.org/reference/intro/getting-started
 ### Not Found
 
 <p float="left">
-  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/20.png" height="250" width="400" />
+  <img src="https://github.com/anilyilmaz108/Netflix-Clone/blob/main/github_images/20.png" height="200" width="300" />
   &nbsp;&nbsp;&nbsp;
 </p>
 
